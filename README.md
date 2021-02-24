@@ -7,4 +7,6 @@ To Run Execute the Below Commands:
 
 1. `git clone https://github.com/aniketdhole07/grammaxpert-chatbot`
 2. `cd grammaxpert-chatbot`
-3. `pip3 install -r requirements.txt`
+3. `sudo apt-get install python3-pyaudio portaudio19-dev  espeak libespeak1 alsa-utils`
+4. `pip3 install -r requirements.txt`
+5. `python3 main.py`
