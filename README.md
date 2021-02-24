@@ -23,8 +23,8 @@ pip3 install -r requirements.txt
 ```
 5. Modify the API Authentication by your Email ID and Password of Expert.ai Account
 ```
-os.environ["EAI_USERNAME"] = 'aniketdhole991@gmail.com'
-os.environ["EAI_PASSWORD"] = 'Ya!tfcJNpa3RYTG'
+os.environ["EAI_USERNAME"] = 'YOUR_EMAIL'
+os.environ["EAI_PASSWORD"] = 'YOUR_PASSWORD'
 ```
 6. Run the Program:
 ```
