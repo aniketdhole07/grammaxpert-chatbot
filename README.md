@@ -21,7 +21,7 @@ sudo apt-get install python3-pyaudio portaudio19-dev  espeak libespeak1 alsa-uti
 ```
 pip3 install -r requirements.txt
 ```
-5. Modify the API Authentication by your Email ID and Password of Expert.ai Account
+5. Modify the API Authentication in `main.py` by your Email ID and Password of Expert.ai Account
 ```
 os.environ["EAI_USERNAME"] = 'YOUR_EMAIL'
 os.environ["EAI_PASSWORD"] = 'YOUR_PASSWORD'
